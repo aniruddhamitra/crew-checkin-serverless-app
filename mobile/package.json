@@ -1,0 +1,1 @@
+{"name":"crew-checkin-app","version":"1.0.0","main":"src/App.js","scripts":{"start":"expo start","android":"expo start --android","ios":"expo start --ios","web":"expo start --web"},"dependencies":{"expo":"^50.0.0","react":"18.2.0","react-native":"0.73.0","react-navigation":"^4.4.4","react-native-camera":"^4.2.1"}}
