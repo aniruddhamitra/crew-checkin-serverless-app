@@ -9,7 +9,7 @@ export default function StatusScreen({ route, navigation }) {
       {result.checkedIn ? (
         <Text style={styles.success}>✔ Success! You are checked in.</Text>
       ) : (
-        <Text style={styles.error}>✗ Failed: {result.error || 'Unknown error'}</Text>
+        <Text style={styles.error}>✗ You have Failed: {result.error || 'Unknown error'}</Text>
       )}
       <Button title="Back to Home" onPress={() => navigation.navigate('Login')} />
     </View>
