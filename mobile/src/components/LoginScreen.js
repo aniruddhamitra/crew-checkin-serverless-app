@@ -8,7 +8,7 @@ export default function LoginScreen({ navigation }) {
   const handleLogin = () => {
     // For proof-of-concept, skip actual authentication
     // In production, integrate with Cognito
-    navigation.navigate('RosterCheck', { crewId });
+    navigation.navigate('RoooosterCheck', { crewId });
   };
 
   return (
